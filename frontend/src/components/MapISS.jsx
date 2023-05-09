@@ -11,7 +11,7 @@ function MapISS() {
       zoom: 0.8,
     });
 
-    map.loadImage("src/assets/ISS-icon.png", (error, image) => {
+    map.loadImage("src/assets/ISS-icone.png", (error, image) => {
       if (error) throw error;
       map.addImage("my-custom-icon", image);
     });
